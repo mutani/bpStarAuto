@@ -1,0 +1,29 @@
+# bpStarAuto GUI設定ファイル
+
+# メインモード選択肢
+mode_options:
+  - "未実装"
+  - "fishing"
+  - "未実装"
+
+# 各モードのサブ選択肢
+mode2_options:
+  fishing:
+    - "釣り"
+  pick:
+    - "未実装"
+    - "未実装"
+  soloID:
+    - "未実装"
+    - "未実装"
+
+# ホットキー選択肢
+hotkey_options:
+  - "esc"
+  - "F10"
+
+# GUI設定
+gui:
+  title: "bpStarAuto GUI"
+  geometry: "290x400"
+  theme: "superhero"

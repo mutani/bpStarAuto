@@ -1,0 +1,60 @@
+# pickAuto設定ファイル
+
+# ターゲットウィンドウのタイトル
+window_title: "ブループロトコル：スターレゾナンス"
+
+# 釣り画像パス設定
+default_fishing_image_path: "images\\fishing\\"
+
+# 釣り待機画面
+waiting_for_fishing: "waiting_for_fishing.png"
+# 釣りアイテム追加
+add_button: "add_button.png"
+# 釣りを続けるボタン
+continue_button: "continue_button.png"
+# 使うボタン
+use_button: "use_button.png"
+# 釣れた！インジケーター
+fish_caught_indicator: "fish_caught_indicator.png"
+# 釣りバトル開始検知
+fishing_battle_detection: "fishing_battle_detection.png"
+# 釣りバトル開始インジケーター
+fishing_battle_indicator: "fishing_battle_indicator.png"
+# fishing_battle_indicator2: "fishing_battle_indicator2.png"
+# 張力インジケーター
+# tension_indicator: "tension_indicator.png"
+# 張力メッセージ
+tension_message: "tension_message.png"
+# 左竿インジケーター
+left_indicator: "left_indicator.png"
+# 右竿インジケーター
+right_indicator: "right_indicator.png"
+# 釣り失敗
+failure: "failure.png"
+
+# 画像認識の信頼度設定（0.0-1.0）
+confidence:
+  # デフォルト信頼度
+  default: 0.8
+  # 釣り待機画面（高精度）
+  waiting_for_fishing: 0.9
+  # 釣りアイテム追加
+  add_button: 0.9
+  # 釣りを続けるボタン
+  continue_button: 0.85
+  # 使うボタン
+  use_button: 0.9
+  # 釣れた！インジケーター
+  fish_caught_indicator: 0.7
+  # 釣りバトル開始検知
+  fishing_battle_detection: 0.8
+  # 釣りバトル開始インジケーター
+  fishing_battle_indicator: 0.35
+  # 張力メッセージ（リアルタイム検知）
+  tension_message: 0.7
+  # 左竿インジケーター（リアルタイム検知）
+  left_indicator: 0.6
+  # 右竿インジケーター（リアルタイム検知）
+  right_indicator: 0.6
+  # 釣り失敗
+  failure: 0.8
